@@ -1,0 +1,379 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fix {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.burger-menu {
+    cursor: pointer;
+}
+
+.hamburger,
+.menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.logo img {
+    width: 195px;
+    height: 50px;
+}
+
+.nav-bar {
+    margin: 0;
+    display: flex;
+    height: 90px;
+    padding: 0 15px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+    font-weight: 530;
+}
+
+.nav-bar li a:hover {
+    color: #44c5ee;
+}
+
+.button {
+    background-color: #038dfe;
+    padding: 10px 30px;
+    border-radius: 80px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #038dfe;
+    transition: ease all;
+}
+
+.image {
+    background-image: url(Images3/slide1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 464.67px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo-profil {
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+}
+
+.user {
+    font-size: 37px;
+    font-family: Montserrat;
+    color: white;
+    line-height: 100px;
+}
+
+.apprenant {
+    color: white;
+    font-size: 36px;
+    font-family: Montserrat;
+}
+
+.promotion {
+    color: white;
+    font-size: 36px;
+    font-family: Montserrat;
+}
+
+.développement-web {
+    color: #559fdb;
+    font-size: 36px;
+    letter-spacing: 0.08em;
+    font-family: Montserrat;
+}
+
+.profile-details {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.brief {
+    background-image: url(Images3/brief.PNG);
+    background-size: cover;
+    width: 425px;
+    height: 552px;
+    width: 33%;
+    margin-left: 68px;
+}
+
+.titre {
+    text-align: center;
+    margin: 70px 0px;
+    font-size: 36px;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+}
+
+.date_div {
+    width: 50%;
+    text-align: center;
+    line-height: 80px;
+}
+
+.premier-brief {
+    display: block;
+    color: rgb(0, 122, 255);
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+.espace {
+    margin-top: 90px;
+}
+
+.veille {
+    background-image: url(Images3/veille.jpg);
+    background-size: cover;
+    width: 632px;
+    height: 580px;
+}
+
+.sujet-veille {
+    color: white;
+    background-color: rgb(0, 122, 255);
+    width: 632px;
+    height: 480px;
+    padding-top: 100px;
+    padding-left: 70px;
+    line-height: 60px;
+}
+
+.unorder-list {
+    font-size: 14px;
+    font-family: Montserrat;
+    letter-spacing: 0.08em;
+}
+
+.tit-veille {
+    font-size: 36px;
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 500;
+}
+
+.club {
+    font-size: 36px;
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 500;
+    padding: 50px 0px;
+}
+
+.picture1 {
+    background-image: url(Images3/Yoga.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.picture2 {
+    background-image: url(Images3/livre.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.picture3 {
+    background-image: url(Images3/touch-typing.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.picture4 {
+    background-image: url(Images3/critique.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.zone {
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Date1 {
+    font-size: 14px;
+    font-family: Montserrat;
+    letter-spacing: 0.08em;
+    color: rgb(0, 122, 254)
+}
+
+.present {
+    font-size: 13px;
+    font-family: Montserrat;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+}
+
+.part1 {
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.parties2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.zone-details {
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 60.33px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    color: #666666;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.support {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #337AB7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.youcode {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #8F9296;
+    letter-spacing: 0.08em;
+    margin-top: 30px;
+}
+
+.réseauxsociaux {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #666666;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.icons {
+    float: right;
+}
+
+.fab {
+    color: white;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+@media all and (max-width: 768px) {
+    .logo img {
+        width: 100px;
+        height: 30px;
+    }
+    .fix {
+        height: 60px;
+    }
+    .hamburger {
+        display: block;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+    .nav-bar {
+        display: none;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        background: #000;
+        width: 100%;
+        height: 100%;
+        padding: 0 25px;
+    }
+    .nav-bar li {
+        display: block;
+        padding: 20px 0;
+        border-bottom: 1px solid #FFF;
+        text-align: center;
+    }
+    .nav-bar li:last-child {
+        border: none;
+    }
+    .menu-toggle:checked~.nav-bar {
+        display: block;
+    }
+    .profile-details {
+        padding: 0 25px;
+    }
+    .image {
+        height: auto;
+        padding-bottom: 90px;
+        flex-direction: column;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .brief {
+        margin-left: 0;
+        width: auto;
+    }
+    .date_div,
+    .veille,
+    .sujet-veille {
+        width: auto;
+    }
+    .parties2 {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer {
+        text-align: center;
+        display: block;
+        height: auto;
+    }
+    .icons {
+        float: none;
+    }
+}

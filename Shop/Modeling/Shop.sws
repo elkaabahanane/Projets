@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{713C77CC-673A-407E-9A88-C0942997F4C7}" Name="MCD_Shop" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="MCD_Shop.mcd"/>
+		<Model Expanded="Yes" ID="{00243437-DC17-4E86-A3D5-E66C85BD54DA}" Name="MLD_Shop" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="MLD_Shop.mld"/>
+		<Model Expanded="Yes" ID="{BC884754-6742-4ECF-9498-649DE36CE0F6}" Name="MPD_Shop" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="MPD_Shop.mpd"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>

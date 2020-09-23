@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    height: 90px;
+    padding: 0 15px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    z-index: 1;
+}
+
+.fix {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    width: 195px;
+    height: 50px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+    font-weight: 530;
+}
+
+.nav-bar li a:hover {
+    color: #44c5ee;
+}
+
+.button {
+    background-color: #038dfe;
+    padding: 10px 30px;
+    border-radius: 80px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #038dfe;
+    transition: ease all;
+}
+
+.image1 {
+    background-image: url(Images2/youcodesafi.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.background-black {
+    background-color: rgb(0, 0, 0, .7);
+    height: 500px;
+    width: 100%;
+}
+
+.sleugon {
+    color: white;
+    font-size: 36px;
+    margin-left: 40px;
+    font-family: Montserrat;
+    padding-top: 200px;
+}
+
+.but2 {
+    border: 3px solid white;
+    background-color: transparent;
+    padding: 20px 40px;
+    border-radius: 80px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.but2:hover {
+    color: gray;
+    background-color: white;
+    transition: 1s all ease-out;
+}
+
+.but3 {
+    border: none;
+    border-radius: 80px;
+    color: white;
+    padding: 20px 60px;
+    background-color: rgb(0, 122, 255)
+}
+
+.but3:hover {
+    color: gray;
+    background-color: white;
+    transition: 1s all ease-out;
+}
+
+.title {
+    font-family: montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 100px 0 10px;
+    letter-spacing: 0.08em;
+}
+
+.paragraph1 {
+    font-size: 15px;
+    font-family: Open Sans;
+    padding-top: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    margin: 0px 90px 60px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.picture {
+    background-image: url(Images2/classe.jpg);
+    background-size: cover;
+    width: 55%;
+    height: 480px;
+}
+
+.description {
+    width: 45%;
+    padding: 60px;
+    background-color: #038dfe;
+    line-height: 120px;
+}
+
+.titre2 {
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+.paragraph3 {
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 1.7;
+    letter-spacing: 0.08em;
+}
+
+.picture2 {
+    background-image: url(Images2/salle.PNG);
+    background-size: cover;
+    width: 55%;
+    height: 480px;
+}
+
+.espace {
+    margin-top: 90px;
+}
+
+.picture3 {
+    background-image: url(Images2/billard.PNG);
+    background-size: cover;
+    width: 55%;
+    height: 510px;
+}
+
+.Agora {
+    background-image: url(Images2/Agora2.PNG);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.tit {
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.para {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 1.7;
+    letter-spacing: 0.08em;
+}
+
+.map {
+    background-image: url(Images2/Lieu.PNG);
+    background-size: cover;
+    width: 55%;
+    height: 480px;
+}
+
+.paragra {
+    color: black;
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 1.7;
+    margin-top: 20px;
+    letter-spacing: 0.08em;
+}
+
+.inscris {
+    display: flex;
+}
+
+.phrase {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 400;
+    margin: 40px 0px 20px;
+    padding: 50px 100px;
+}
+
+.butt {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Montserrat;
+    background-color: #038dfe;
+    margin: 90px 30px;
+    width: 525px;
+    height: 20px;
+    border-radius: 80px;
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.butt:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid gainsboro;
+    transition: 1s all ease-out;
+}
+
+footer {
+    background-color: black;
+    height: 60.33px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    color: #666666;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.support {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #337AB7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.youcode {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #8F9296;
+    letter-spacing: 0.08em;
+    margin-top: 30px;
+}
+
+.réseauxsociaux {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #666666;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.icons {
+    float: right;
+}
+
+.fab {
+    color: white;
+    margin-top: 20px;
+    padding-right: 20px;
+}

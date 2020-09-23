@@ -1,0 +1,181 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background-color: #004767;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer p {
+  font-size: 14px;
+  font-family: Montserrat, sans serif;
+  color: white;
+  opacity: 0.7;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+footer h2 {
+  font-size: 20px;
+  font-family: Montserrat, sans serif;
+  margin-top: 12%;
+  margin-left: 18%;
+  color: white;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: Montserrat, sans serif;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+footer .container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3%;
+  margin-right: 2%;
+}
+
+footer .container2 .part3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.11);
+  padding: 3%;
+  font-size: 14px;
+  font-family: Montserrat, sans serif;
+}
+
+footer .container2 .part3 .part3-1 {
+  color: white;
+  font-weight: 600;
+}
+
+footer .container2 .part3 .part3-2 {
+  color: white;
+  opacity: 0.7;
+}
+
+footer .container2 .dotted {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 10px;
+  border-bottom: 2px dotted #03bfcb;
+}
+
+@media all and (max-width: 768px) {
+  footer > div {
+    width: 100%;
+    padding: 15px 25px !important;
+    margin: 0 !important;
+  }
+  footer h2 {
+    margin: 0;
+  }
+  footer ul {
+    padding: 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .contact-details {
+    display: none;
+  }
+  .Image {
+    height: auto;
+  }
+  .Image .boxes .box {
+    width: 40%;
+    margin-bottom: 25px;
+  }
+  .boxes2 .box3 {
+    width: 40%;
+    margin-bottom: 25px;
+  }
+  .part1 {
+    padding: 0 25px;
+    margin: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .part1 .part1-1 {
+    margin: 0;
+  }
+  .part1 .part1-1 .slider {
+    width: 100%;
+  }
+  .fle {
+    padding: 25px;
+    margin: 0;
+  }
+  .fle .container {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+  .fle .img-area, .fle .content-area {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .backgr {
+    padding: 0 25px;
+  }
+  .backgr > div {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .fle .container, .Image .boxes .box, .boxes2 .box3 {
+    width: 100%;
+  }
+  .navbar .Logo .Info {
+    display: none;
+  }
+  .navbar .Logo .logo-img {
+    width: 100%;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

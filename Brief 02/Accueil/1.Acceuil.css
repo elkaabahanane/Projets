@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    height: 90px;
+    padding: 0 15px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    z-index: 1;
+}
+
+.fix {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    width: 195px;
+    height: 50px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+    font-weight: 530;
+}
+
+.nav-bar li a:hover {
+    color: #44c5ee;
+}
+
+.button {
+    background-color: #038dfe;
+    padding: 10px 30px;
+    border-radius: 80px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #038dfe;
+    transition: ease all;
+}
+
+.images {
+    position: relative;
+    height: 500px;
+}
+
+.image1 {
+    background-image: url(Images1/slide1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.sleugon {
+    color: white;
+    font-size: 36px;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-family: Montserrat;
+}
+
+.sleugon2 {
+    color: white;
+    font-size: 18px;
+    font-family: Open Sans;
+}
+
+.but2 {
+    border: 3px solid white;
+    background-color: transparent;
+    padding: 20px 40px;
+    border-radius: 80px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.but2:hover {
+    color: gray;
+    background-color: white;
+    transition: 1s all ease-out;
+}
+
+.but3 {
+    border: none;
+    border-radius: 80px;
+    color: white;
+    padding: 20px 60px;
+    background-color: rgb(0, 122, 255)
+}
+
+.but3:hover {
+    color: gray;
+    background-color: white;
+    transition: 1s all ease-out;
+}
+
+.title {
+    font-family: montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 100px 0 10px;
+    letter-spacing: 0.08em;
+}
+
+.paragraph1 {
+    font-size: 15px;
+    font-family: Open Sans;
+    padding-top: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    margin: 0px 60px;
+}
+
+.parties {
+    justify-content: center;
+    display: flex;
+}
+
+.partie {
+    text-align: center;
+    margin: 60px 0;
+    padding: 0 15px;
+    letter-spacing: 0.08em;
+    width: 370px;
+    height: 335px;
+}
+
+.title2 {
+    font-size: 24px;
+    font-family: Montserrat;
+    color: #496174;
+    font-weight: 500;
+    margin: 25px 0px;
+}
+
+.paragraph2 {
+    font-size: 15px;
+    font-family: Open Sans;
+    font-weight: 100;
+    padding: 20px 0;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.slide {
+    background-image: url(Images1/image.jpg);
+    background-size: cover;
+    width: 55%;
+    height: 480px;
+}
+
+.description {
+    width: 45%;
+    padding: 60px;
+    background-color: #038dfe;
+}
+
+.titre2 {
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+.para {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+.paragraph3 {
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 1.7;
+    letter-spacing: 0.08em;
+}
+
+.simplon {
+    background-image: url(Images1/simplon.png);
+    background-size: cover;
+    height: 500px;
+    width: 1263.33px;
+    margin-top: 130px;
+    position: relative;
+}
+
+.background-black {
+    background-color: rgb(0, 0, 0, .7);
+    height: 500px;
+    width: 1263.33px;
+}
+
+.powered {
+    color: #038dfe;
+    font-size: 18px;
+    font-family: Montserrat;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+
+.website {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.blue-background {
+    display: flex;
+    height: 150px;
+    background-color: #038dfe;
+    color: white;
+    padding: 60px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.span {
+    font-size: 48px;
+    font-family: Montserrat;
+    margin: 20px 0 35px;
+}
+
+.tit {
+    font-size: 23px;
+    font-family: Montserrat;
+    margin: 20px 0 10px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+}
+
+.part {
+    width: 30%;
+}
+
+.part1 {
+    width: 30%;
+    border-right: 1px dashed black;
+}
+
+.parag {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #666666;
+    font-weight: 400;
+    margin: 20px 0px 0px;
+    padding: 50px 0px;
+    line-height: 40px;
+    letter-spacing: 0.08em;
+    margin: 0px 50px;
+}
+
+.span-sim {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: black;
+    font-weight: 500;
+}
+
+.conn {
+    padding: 50px 0;
+}
+
+.sponsor {
+    font-family: Montserrat;
+    font-size: 40px;
+    margin: 20px 0px 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.logo-ocp {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.inscris {
+    display: flex;
+}
+
+.phrase {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 400;
+    margin: 40px 0px 20px;
+    padding: 50px 100px;
+}
+
+.butt {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Montserrat;
+    background-color: #038dfe;
+    margin: 90px 30px;
+    width: 525px;
+    height: 20px;
+    border-radius: 80px;
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.butt:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid gainsboro;
+    transition: 1s all ease-out;
+}
+
+footer {
+    background-color: black;
+    height: 60.33px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    color: #666666;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.support {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #337AB7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.youcode {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #8F9296;
+    letter-spacing: 0.08em;
+    margin-top: 30px;
+}
+
+.réseauxsociaux {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #666666;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.icons {
+    float: right;
+}
+
+.fab {
+    color: white;
+    margin-top: 20px;
+    padding-right: 20px;
+}
